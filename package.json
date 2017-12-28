@@ -1,0 +1,19 @@
+{
+  "name": "atv-client",
+  "version": "1.0.0",
+  "description": "AppleTV client written in Node.js",
+  "main": "lib/client.js",
+  "repository": "https://github.com/googoid/atv-client.git",
+  "author": "GooX",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "curve25519-n2": "^1.1.3",
+    "ed25519": "^0.0.4",
+    "fast-srp-hap": "^1.0.1",
+    "mdns": "^2.3.4",
+    "prompt": "^1.0.0",
+    "simple-plist": "^0.2.1",
+    "uuid": "^3.1.0"
+  }
+}
