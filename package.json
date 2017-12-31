@@ -1,6 +1,6 @@
 {
   "name": "atv-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AppleTV client written in Node.js",
   "main": "lib/client.js",
   "repository": "https://github.com/googoid/atv-client.git",

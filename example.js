@@ -33,6 +33,14 @@ AtvClient.find()
       console.log('position', pos, 'seconds');
     });
 
+    fs.readFile('test.jpg', (err, buffer) => {
+      client.photo(buffer);
+    });
+
+    setTimeout(() => {
+      client.stop();
+    }, 5000);
+
     // client.play('http://data12-cdn.datalock.ru/fi2lm/053b096c10388c7357164adc532efffc/7f_Zapped.s02e01.HDTV720p.Rus.Eng.BaibaKo.tv.a1.23.10.17.mp4', 30);
 
     // setTimeout(() => {
